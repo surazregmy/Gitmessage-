@@ -47,8 +47,8 @@ public class Gitmessage {
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
                     new FileOutputStream("D:\\javaproject\\NFjava\\gitreport\\filename.txt"), "utf-8"));
             writer.write("Author:" + output.get(2));
-            writer.write("Author:" + output.get(2));
-            writer.write("Author:" + output.get(2));
+            writer.write("Author:" + output.get(3));
+            writer.write("Author:" + output.get(4));
 
         } catch (IOException ex) {
 
